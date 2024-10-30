@@ -1,0 +1,18 @@
+/* Tabbed sidebar menu @ http://wp-mix.com/tabbed-sidebar-menu-jquery/ */
+
+ul.tabs { position: relative; z-index: 1000; float: left; margin: 0; padding: 0; list-style: none; border-left: 1px solid #777; }
+ul.tabs li {
+	position: relative; overflow: hidden; height: 26px; float: left; margin: 0; padding: 0; line-height: 26px; background-color: #c6c6c6;
+	border-bottom: 1px solid #777; border-right: 1px solid #777; border-top: 1px solid #777;
+	}
+ul.tabs li a { display: block; padding: 0 10px; color: #4b4b4b; outline: none; text-decoration: none; }
+html ul.tabs li.active, 
+html ul.tabs li.active a:hover { background-color: #efefef; border-bottom: 1px solid #efefef; }
+html ul.tabs li.active a:link  { color: #4b4b4b; }
+.tab_container {
+	position: relative; top: -1px; z-index: 999; width: 100%; float: left; font-size: 11px; background-color: #efefef; border: 1px solid #777;
+	}
+.tab_content { padding: 7px 11px 11px 11px; line-height: 1.5; }
+.tab_content ul { margin: 0; padding: 0; list-style: none; }
+.tab_content li { margin: 3px 0; }
+.tab-clear {clear:both;}
